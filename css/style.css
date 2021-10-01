@@ -1,0 +1,85 @@
+.header {
+    background-color: #075CB5;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    margin-bottom: 34px;
+}
+.header .title {
+    margin-left: 6px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header .logo {
+    margin-left: 15px;
+}
+.text_block{
+    margin-top: 70px;
+}
+.text_block .title{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text_block .text li{
+    list-style-type: none;
+}
+.heding_section .carts .img{
+    height: 140px;
+    background: #777777;
+}
+.card{
+    margin-bottom: 15px;
+}
+.card a{
+    width: 88px;
+}
+
+.modal_btn .smal button{
+    width: 250px;
+}
+.modal_btn .medium button{
+    width: 157px;
+}
+.modal_btn .larg button{
+    width: 231px;
+}
+@media (max-width: 769px) {
+    .modal_btn button{
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 769px) {
+    .modal_btn .medium button{
+        margin-left: auto;
+    }
+    .modal_btn .larg button{
+        margin-left: auto;
+    }
+    .modal_btn .medium {
+        display: flex;
+    }
+    .modal_btn .larg {
+        display: flex;
+    }
+}
+.cards {
+    margin-top: 87px;
+}
+.tabs .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tabs {
+    margin-top: 80px;
+}
+.heding_section{
+    margin-top: 60px;
+}
+.heding_section .title{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.table {
+    margin-top: 65px;
+}
